@@ -1,0 +1,1725 @@
+{
+  "id": "demo",
+  "code": "DEMO",
+  "name": "Interactive Learning Demo",
+  "description": "Try every learning tool. This pack is NOT a certification or exam prep.",
+  "status": "DEMO ONLY — no certification content included",
+  "blueprint": "https://www.learningscientists.org/",
+  "verifiedOn": null,
+  "domains": [
+    {
+      "id": "plan",
+      "name": "Exam Blueprint",
+      "weight": 0,
+      "summary": "Start from official objectives. This is a demonstration category, not an exam domain."
+    },
+    {
+      "id": "learn",
+      "name": "Fast Learning",
+      "weight": 0,
+      "summary": "Explain before memorizing. This is a demonstration category, not an exam domain."
+    },
+    {
+      "id": "recall",
+      "name": "Active Recall",
+      "weight": 0,
+      "summary": "Practice retrieval. This is a demonstration category, not an exam domain."
+    },
+    {
+      "id": "scenarios",
+      "name": "Scenario Reasoning",
+      "weight": 0,
+      "summary": "Choose based on requirements. This is a demonstration category, not an exam domain."
+    },
+    {
+      "id": "hands",
+      "name": "Hands-On Drills",
+      "weight": 0,
+      "summary": "Practice doing, not only reading. This is a demonstration category, not an exam domain."
+    },
+    {
+      "id": "review",
+      "name": "Review & Progress",
+      "weight": 0,
+      "summary": "Return to weak areas. This is a demonstration category, not an exam domain."
+    }
+  ],
+  "sprints": [
+    {
+      "domain": "plan",
+      "title": "Exam Blueprint",
+      "subtitle": "Start from official objectives",
+      "minutes": 15,
+      "lesson": "Understand the tested topics before memorizing details. If a domain is not yet studied, schedule a lesson and practice check before calling it complete.",
+      "example": "A study plan should cover each published exam objective, rather than relying only on favorite topics.",
+      "trap": "Do not assume every exam uses the same scoring method or question types.",
+      "takeaway": "Check the current official exam guide before studying.",
+      "source": "https://www.learningscientists.org/"
+    },
+    {
+      "domain": "learn",
+      "title": "Fast Learning",
+      "subtitle": "Explain before memorizing",
+      "minutes": 15,
+      "lesson": "Use a concise explanation, then demonstrate a practical example. A short explanation can be expanded into a concrete scenario and a short check.",
+      "example": "After reading a concept, summarize it without looking and explain when it applies.",
+      "trap": "Simply rereading the same paragraph is not a reliable mastery check.",
+      "takeaway": "Explain it simply, then retrieve it unaided.",
+      "source": "https://www.learningscientists.org/"
+    },
+    {
+      "domain": "recall",
+      "title": "Active Recall",
+      "subtitle": "Practice retrieval",
+      "minutes": 15,
+      "lesson": "Try answering without revealing hints, then inspect why each option is right or wrong. Answer first and reveal the explanation afterward.",
+      "example": "Before reviewing a definition, describe it aloud from memory and check mistakes.",
+      "trap": "Memorizing option letters is not learning the underlying concept.",
+      "takeaway": "Recall first, read the explanation second.",
+      "source": "https://www.learningscientists.org/"
+    },
+    {
+      "domain": "scenarios",
+      "title": "Scenario Reasoning",
+      "subtitle": "Choose based on requirements",
+      "minutes": 15,
+      "lesson": "Identify constraints, eliminate distractors, and justify a choice. Ask what the scenario requires before jumping to a familiar product or command.",
+      "example": "A scenario mentions time, cost, and security: decide which requirement actually controls the answer.",
+      "trap": "The first familiar keyword does not automatically identify the correct answer.",
+      "takeaway": "Read requirements before recognizing keywords.",
+      "source": "https://www.learningscientists.org/"
+    },
+    {
+      "domain": "hands",
+      "title": "Hands-On Drills",
+      "subtitle": "Practice doing, not only reading",
+      "minutes": 15,
+      "lesson": "Order steps, interpret commands, and validate expected outcomes. Troubleshoot a wrong sequence by checking dependencies between steps.",
+      "example": "In a CLI exercise, order setup, execution, checking, and cleanup.",
+      "trap": "A memorized command can still be used in the wrong order or context.",
+      "takeaway": "Sequence matters as much as syntax.",
+      "source": "https://www.learningscientists.org/"
+    },
+    {
+      "domain": "review",
+      "title": "Review & Progress",
+      "subtitle": "Return to weak areas",
+      "minutes": 15,
+      "lesson": "Use misses, confidence, and spaced practice to prioritize the next review. Keep a record of what you missed and check improvement after a break.",
+      "example": "After missing multiple questions in one area, return to the objective and retry with new examples.",
+      "trap": "A high score on repeated identical questions may overstate readiness.",
+      "takeaway": "Track weak spots; practice until reasoning improves.",
+      "source": "https://www.learningscientists.org/"
+    }
+  ],
+  "questions": [
+    {
+      "id": "demo-s-01",
+      "type": "single",
+      "group": 0,
+      "domain": "plan",
+      "prompt": "Which document should determine the topics in a certification study plan?",
+      "options": [
+        "A current official exam guide",
+        "An unrelated practice quiz",
+        "The number of buttons on the dashboard",
+        "A social media rumor"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Official objectives define the published coverage; practice material supplements them.",
+      "trap": "A tempting choice ignores the main learning goal.",
+      "why": [
+        "Correct: Official objectives define the published coverage; practice material supplements them.",
+        "Not best: this action does not address the learning goal.",
+        "Not best: this action does not address the learning goal.",
+        "Not best: this action does not address the learning goal."
+      ],
+      "source": "https://www.learningscientists.org/"
+    },
+    {
+      "id": "demo-s-02",
+      "type": "single",
+      "group": 0,
+      "domain": "plan",
+      "prompt": "A certification has changed its exam version. What should you check first?",
+      "options": [
+        "A random old cheat sheet",
+        "The current provider exam guide",
+        "An old recorded webinar",
+        "Your browser theme"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "The current provider guide is the strongest starting point for version-specific study.",
+      "trap": "A tempting choice ignores the main learning goal.",
+      "why": [
+        "Not best: this action does not address the learning goal.",
+        "Correct: The current provider guide is the strongest starting point for version-specific study.",
+        "Not best: this action does not address the learning goal.",
+        "Not best: this action does not address the learning goal."
+      ],
+      "source": "https://www.learningscientists.org/"
+    },
+    {
+      "id": "demo-s-03",
+      "type": "single",
+      "group": 0,
+      "domain": "learn",
+      "prompt": "What should follow a short explanation in a useful learning lesson?",
+      "options": [
+        "Another pass of copying text",
+        "A practical scenario and knowledge check",
+        "A new logo",
+        "An unrelated joke"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "Concrete examples plus retrieval expose whether the concept was understood.",
+      "trap": "A tempting choice ignores the main learning goal.",
+      "why": [
+        "Not best: this action does not address the learning goal.",
+        "Correct: Concrete examples plus retrieval expose whether the concept was understood.",
+        "Not best: this action does not address the learning goal.",
+        "Not best: this action does not address the learning goal."
+      ],
+      "source": "https://www.learningscientists.org/"
+    },
+    {
+      "id": "demo-s-04",
+      "type": "single",
+      "group": 0,
+      "domain": "learn",
+      "prompt": "Which habit tests understanding rather than recognition?",
+      "options": [
+        "Highlighting every sentence",
+        "Reading an answer ten times",
+        "Explaining a concept without notes",
+        "Changing the font size"
+      ],
+      "correct": [
+        2
+      ],
+      "explanation": "An unaided explanation requires retrieving and organizing the knowledge.",
+      "trap": "A tempting choice ignores the main learning goal.",
+      "why": [
+        "Not best: this action does not address the learning goal.",
+        "Not best: this action does not address the learning goal.",
+        "Correct: An unaided explanation requires retrieving and organizing the knowledge.",
+        "Not best: this action does not address the learning goal."
+      ],
+      "source": "https://www.learningscientists.org/"
+    },
+    {
+      "id": "demo-s-05",
+      "type": "single",
+      "group": 0,
+      "domain": "recall",
+      "prompt": "When should you reveal an explanation during a retrieval exercise?",
+      "options": [
+        "After making an attempt",
+        "Before reading the question",
+        "Before picking any answer",
+        "Never, even when wrong"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Attempting first makes the review informative and shows what needs correction.",
+      "trap": "A tempting choice ignores the main learning goal.",
+      "why": [
+        "Correct: Attempting first makes the review informative and shows what needs correction.",
+        "Not best: this action does not address the learning goal.",
+        "Not best: this action does not address the learning goal.",
+        "Not best: this action does not address the learning goal."
+      ],
+      "source": "https://www.learningscientists.org/"
+    },
+    {
+      "id": "demo-s-06",
+      "type": "single",
+      "group": 0,
+      "domain": "recall",
+      "prompt": "What is the risk of memorizing answer letters from repeated practice questions?",
+      "options": [
+        "It improves understanding of new scenarios",
+        "It measures mastery reliably",
+        "It may hide conceptual gaps",
+        "It replaces the exam blueprint"
+      ],
+      "correct": [
+        2
+      ],
+      "explanation": "Letter patterns can be memorized without understanding the scenario.",
+      "trap": "A tempting choice ignores the main learning goal.",
+      "why": [
+        "Not best: this action does not address the learning goal.",
+        "Not best: this action does not address the learning goal.",
+        "Correct: Letter patterns can be memorized without understanding the scenario.",
+        "Not best: this action does not address the learning goal."
+      ],
+      "source": "https://www.learningscientists.org/"
+    },
+    {
+      "id": "demo-s-07",
+      "type": "single",
+      "group": 0,
+      "domain": "scenarios",
+      "prompt": "A question contains competing requirements. What is the first useful step?",
+      "options": [
+        "Pick the most familiar term",
+        "Identify the actual constraints",
+        "Guess immediately",
+        "Ignore the scenario"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "The constraints decide which solution is appropriate.",
+      "trap": "A tempting choice ignores the main learning goal.",
+      "why": [
+        "Not best: this action does not address the learning goal.",
+        "Correct: The constraints decide which solution is appropriate.",
+        "Not best: this action does not address the learning goal.",
+        "Not best: this action does not address the learning goal."
+      ],
+      "source": "https://www.learningscientists.org/"
+    },
+    {
+      "id": "demo-s-08",
+      "type": "single",
+      "group": 0,
+      "domain": "scenarios",
+      "prompt": "A distractor sounds plausible but misses a requirement. What should you do?",
+      "options": [
+        "Prefer it because it sounds technical",
+        "Ignore the requirement",
+        "Check the requirement and eliminate it",
+        "Assume every option is correct"
+      ],
+      "correct": [
+        2
+      ],
+      "explanation": "A plausible option is still wrong when it does not meet a stated constraint.",
+      "trap": "A tempting choice ignores the main learning goal.",
+      "why": [
+        "Not best: this action does not address the learning goal.",
+        "Not best: this action does not address the learning goal.",
+        "Correct: A plausible option is still wrong when it does not meet a stated constraint.",
+        "Not best: this action does not address the learning goal."
+      ],
+      "source": "https://www.learningscientists.org/"
+    },
+    {
+      "id": "demo-s-09",
+      "type": "single",
+      "group": 0,
+      "domain": "hands",
+      "prompt": "What should determine the order of a multistep technical workflow?",
+      "options": [
+        "Alphabetical step names",
+        "Dependency relationships",
+        "Random ordering",
+        "The shortest step first"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "Execution order follows prerequisites and validation points.",
+      "trap": "A tempting choice ignores the main learning goal.",
+      "why": [
+        "Not best: this action does not address the learning goal.",
+        "Correct: Execution order follows prerequisites and validation points.",
+        "Not best: this action does not address the learning goal.",
+        "Not best: this action does not address the learning goal."
+      ],
+      "source": "https://www.learningscientists.org/"
+    },
+    {
+      "id": "demo-s-10",
+      "type": "single",
+      "group": 0,
+      "domain": "hands",
+      "prompt": "After completing a lab operation, what should you do?",
+      "options": [
+        "Validate the result",
+        "Skip every check",
+        "Immediately erase the documentation",
+        "Trust the command was correct"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Validation catches errors that are invisible from a successful command exit alone.",
+      "trap": "A tempting choice ignores the main learning goal.",
+      "why": [
+        "Correct: Validation catches errors that are invisible from a successful command exit alone.",
+        "Not best: this action does not address the learning goal.",
+        "Not best: this action does not address the learning goal.",
+        "Not best: this action does not address the learning goal."
+      ],
+      "source": "https://www.learningscientists.org/"
+    },
+    {
+      "id": "demo-s-11",
+      "type": "single",
+      "group": 0,
+      "domain": "review",
+      "prompt": "You repeatedly miss one domain. What is a good next action?",
+      "options": [
+        "Only repeat already-mastered questions",
+        "Avoid the domain",
+        "Review the weak objective and use new practice",
+        "Reset the theme"
+      ],
+      "correct": [
+        2
+      ],
+      "explanation": "Targeted review followed by fresh questions tests improvement.",
+      "trap": "A tempting choice ignores the main learning goal.",
+      "why": [
+        "Not best: this action does not address the learning goal.",
+        "Not best: this action does not address the learning goal.",
+        "Correct: Targeted review followed by fresh questions tests improvement.",
+        "Not best: this action does not address the learning goal."
+      ],
+      "source": "https://www.learningscientists.org/"
+    },
+    {
+      "id": "demo-s-12",
+      "type": "single",
+      "group": 0,
+      "domain": "review",
+      "prompt": "Why should practice accuracy be interpreted carefully?",
+      "options": [
+        "Familiar repeated questions may inflate it",
+        "Accuracy always guarantees passing",
+        "Accuracy is identical to official scaling",
+        "Higher XP proves every objective is mastered"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Practice accuracy is useful but not an official exam pass predictor.",
+      "trap": "A tempting choice ignores the main learning goal.",
+      "why": [
+        "Correct: Practice accuracy is useful but not an official exam pass predictor.",
+        "Not best: this action does not address the learning goal.",
+        "Not best: this action does not address the learning goal.",
+        "Not best: this action does not address the learning goal."
+      ],
+      "source": "https://www.learningscientists.org/"
+    },
+    {
+      "id": "demo-m-01",
+      "type": "multi",
+      "group": 1,
+      "domain": "plan",
+      "prompt": "Which TWO actions help build an objective-aligned study plan?",
+      "options": [
+        "Use the latest official blueprint",
+        "Ignore unstudied domains",
+        "Map lessons to published objectives",
+        "Study only topics that feel easy",
+        "Assume last year’s exam guide is identical"
+      ],
+      "correct": [
+        0,
+        2
+      ],
+      "explanation": "The correct choices support the stated learning objective. The others skip validation, rely on guesses, or misuse the exercise.",
+      "why": [
+        "This supports the goal of plan practice.",
+        "This distractor does not meet the learning objective.",
+        "This supports the goal of plan practice.",
+        "This distractor does not meet the learning objective.",
+        "This distractor does not meet the learning objective."
+      ],
+      "source": "https://www.learningscientists.org/"
+    },
+    {
+      "id": "demo-m-02",
+      "type": "multi",
+      "group": 1,
+      "domain": "plan",
+      "prompt": "Which TWO details should be verified before studying an exam?",
+      "options": [
+        "Favorite dashboard colors",
+        "Current exam code/version",
+        "A random forum prediction",
+        "The number of browser tabs",
+        "The provider’s current domain list"
+      ],
+      "correct": [
+        1,
+        4
+      ],
+      "explanation": "The correct choices support the stated learning objective. The others skip validation, rely on guesses, or misuse the exercise.",
+      "why": [
+        "This distractor does not meet the learning objective.",
+        "This supports the goal of plan practice.",
+        "This distractor does not meet the learning objective.",
+        "This distractor does not meet the learning objective.",
+        "This supports the goal of plan practice."
+      ],
+      "source": "https://www.learningscientists.org/"
+    },
+    {
+      "id": "demo-m-03",
+      "type": "multi",
+      "group": 1,
+      "domain": "plan",
+      "prompt": "Which TWO actions reduce risk when a certification is revised?",
+      "options": [
+        "Assume old passing scores still apply",
+        "Verify the retirement or transition dates",
+        "Copy obsolete questions without checking",
+        "Check the provider’s latest updates",
+        "Remove all references"
+      ],
+      "correct": [
+        1,
+        3
+      ],
+      "explanation": "The correct choices support the stated learning objective. The others skip validation, rely on guesses, or misuse the exercise.",
+      "why": [
+        "This distractor does not meet the learning objective.",
+        "This supports the goal of plan practice.",
+        "This distractor does not meet the learning objective.",
+        "This supports the goal of plan practice.",
+        "This distractor does not meet the learning objective."
+      ],
+      "source": "https://www.learningscientists.org/"
+    },
+    {
+      "id": "demo-m-04",
+      "type": "multi",
+      "group": 2,
+      "domain": "learn",
+      "prompt": "Which TWO methods turn short notes into useful learning?",
+      "options": [
+        "Only memorize the heading",
+        "Avoid asking when a tool should be used",
+        "Replace examples with decorations",
+        "Use a concrete example",
+        "Explain the concept in your own words"
+      ],
+      "correct": [
+        3,
+        4
+      ],
+      "explanation": "The correct choices support the stated learning objective. The others skip validation, rely on guesses, or misuse the exercise.",
+      "why": [
+        "This distractor does not meet the learning objective.",
+        "This distractor does not meet the learning objective.",
+        "This distractor does not meet the learning objective.",
+        "This supports the goal of learn practice.",
+        "This supports the goal of learn practice."
+      ],
+      "source": "https://www.learningscientists.org/"
+    },
+    {
+      "id": "demo-m-05",
+      "type": "multi",
+      "group": 2,
+      "domain": "learn",
+      "prompt": "Which TWO lesson components help prevent common mistakes?",
+      "options": [
+        "A stale command from another exam",
+        "An unrelated game score",
+        "A when-not-to-use comparison",
+        "A random screenshot filename",
+        "A misconception explanation"
+      ],
+      "correct": [
+        2,
+        4
+      ],
+      "explanation": "The correct choices support the stated learning objective. The others skip validation, rely on guesses, or misuse the exercise.",
+      "why": [
+        "This distractor does not meet the learning objective.",
+        "This distractor does not meet the learning objective.",
+        "This supports the goal of learn practice.",
+        "This distractor does not meet the learning objective.",
+        "This supports the goal of learn practice."
+      ],
+      "source": "https://www.learningscientists.org/"
+    },
+    {
+      "id": "demo-m-06",
+      "type": "multi",
+      "group": 2,
+      "domain": "learn",
+      "prompt": "Which TWO actions make technical notes more transferable?",
+      "options": [
+        "Connect principles to scenarios",
+        "Use only unexplained acronyms",
+        "Omit what each command does",
+        "Show practical constraints",
+        "Invent unsupported capabilities"
+      ],
+      "correct": [
+        0,
+        3
+      ],
+      "explanation": "The correct choices support the stated learning objective. The others skip validation, rely on guesses, or misuse the exercise.",
+      "why": [
+        "This supports the goal of learn practice.",
+        "This distractor does not meet the learning objective.",
+        "This distractor does not meet the learning objective.",
+        "This supports the goal of learn practice.",
+        "This distractor does not meet the learning objective."
+      ],
+      "source": "https://www.learningscientists.org/"
+    },
+    {
+      "id": "demo-m-07",
+      "type": "multi",
+      "group": 3,
+      "domain": "recall",
+      "prompt": "Which TWO behaviors represent active recall?",
+      "options": [
+        "Copy the full answer every time",
+        "Explain a concept without notes",
+        "Only scroll the page",
+        "Answer before revealing feedback",
+        "Read solutions immediately"
+      ],
+      "correct": [
+        1,
+        3
+      ],
+      "explanation": "The correct choices support the stated learning objective. The others skip validation, rely on guesses, or misuse the exercise.",
+      "why": [
+        "This distractor does not meet the learning objective.",
+        "This supports the goal of recall practice.",
+        "This distractor does not meet the learning objective.",
+        "This supports the goal of recall practice.",
+        "This distractor does not meet the learning objective."
+      ],
+      "source": "https://www.learningscientists.org/"
+    },
+    {
+      "id": "demo-m-08",
+      "type": "multi",
+      "group": 3,
+      "domain": "recall",
+      "prompt": "Which TWO kinds of feedback are most useful after a missed question?",
+      "options": [
+        "A score with no explanation",
+        "A new color theme",
+        "Reason the correct option works",
+        "Reason the distractor is wrong",
+        "A decorative animation alone"
+      ],
+      "correct": [
+        2,
+        3
+      ],
+      "explanation": "The correct choices support the stated learning objective. The others skip validation, rely on guesses, or misuse the exercise.",
+      "why": [
+        "This distractor does not meet the learning objective.",
+        "This distractor does not meet the learning objective.",
+        "This supports the goal of recall practice.",
+        "This supports the goal of recall practice.",
+        "This distractor does not meet the learning objective."
+      ],
+      "source": "https://www.learningscientists.org/"
+    },
+    {
+      "id": "demo-m-09",
+      "type": "multi",
+      "group": 3,
+      "domain": "recall",
+      "prompt": "Which TWO changes help avoid memorizing answer positions?",
+      "options": [
+        "Write varied original scenarios",
+        "Fix A+B as the answer in every question",
+        "Rotate realistic answer placements",
+        "Use the same option list for all questions",
+        "Suppress explanations"
+      ],
+      "correct": [
+        0,
+        2
+      ],
+      "explanation": "The correct choices support the stated learning objective. The others skip validation, rely on guesses, or misuse the exercise.",
+      "why": [
+        "This supports the goal of recall practice.",
+        "This distractor does not meet the learning objective.",
+        "This supports the goal of recall practice.",
+        "This distractor does not meet the learning objective.",
+        "This distractor does not meet the learning objective."
+      ],
+      "source": "https://www.learningscientists.org/"
+    },
+    {
+      "id": "demo-m-10",
+      "type": "multi",
+      "group": 4,
+      "domain": "scenarios",
+      "prompt": "Which TWO details should guide architectural scenario selection?",
+      "options": [
+        "The option with the longest name",
+        "Explicit requirements",
+        "A familiar brand regardless of need",
+        "An unrelated numerical limit",
+        "Trade-offs or constraints"
+      ],
+      "correct": [
+        1,
+        4
+      ],
+      "explanation": "The correct choices support the stated learning objective. The others skip validation, rely on guesses, or misuse the exercise.",
+      "why": [
+        "This distractor does not meet the learning objective.",
+        "This supports the goal of scenarios practice.",
+        "This distractor does not meet the learning objective.",
+        "This distractor does not meet the learning objective.",
+        "This supports the goal of scenarios practice."
+      ],
+      "source": "https://www.learningscientists.org/"
+    },
+    {
+      "id": "demo-m-11",
+      "type": "multi",
+      "group": 4,
+      "domain": "scenarios",
+      "prompt": "Which TWO actions identify a tricky distractor?",
+      "options": [
+        "Ignore all requirements",
+        "Compare it against required behavior",
+        "Select it because it sounds plausible",
+        "Check why it fails a constraint",
+        "Assume each answer is partially right"
+      ],
+      "correct": [
+        1,
+        3
+      ],
+      "explanation": "The correct choices support the stated learning objective. The others skip validation, rely on guesses, or misuse the exercise.",
+      "why": [
+        "This distractor does not meet the learning objective.",
+        "This supports the goal of scenarios practice.",
+        "This distractor does not meet the learning objective.",
+        "This supports the goal of scenarios practice.",
+        "This distractor does not meet the learning objective."
+      ],
+      "source": "https://www.learningscientists.org/"
+    },
+    {
+      "id": "demo-m-12",
+      "type": "multi",
+      "group": 4,
+      "domain": "scenarios",
+      "prompt": "Which TWO actions improve decision-tree practice?",
+      "options": [
+        "Jump directly to the displayed outcome",
+        "Use a single click without explanation",
+        "Skip every branch condition",
+        "Follow conditional branches",
+        "Explain why another branch fails"
+      ],
+      "correct": [
+        3,
+        4
+      ],
+      "explanation": "The correct choices support the stated learning objective. The others skip validation, rely on guesses, or misuse the exercise.",
+      "why": [
+        "This distractor does not meet the learning objective.",
+        "This distractor does not meet the learning objective.",
+        "This distractor does not meet the learning objective.",
+        "This supports the goal of scenarios practice.",
+        "This supports the goal of scenarios practice."
+      ],
+      "source": "https://www.learningscientists.org/"
+    },
+    {
+      "id": "demo-m-13",
+      "type": "multi",
+      "group": 5,
+      "domain": "hands",
+      "prompt": "Which TWO actions make command-ordering practice useful?",
+      "options": [
+        "Order steps only by word length",
+        "Ignore cleanup requirements",
+        "Validate the result",
+        "Shuffle after grading with no review",
+        "Identify prerequisite steps"
+      ],
+      "correct": [
+        2,
+        4
+      ],
+      "explanation": "The correct choices support the stated learning objective. The others skip validation, rely on guesses, or misuse the exercise.",
+      "why": [
+        "This distractor does not meet the learning objective.",
+        "This distractor does not meet the learning objective.",
+        "This supports the goal of hands practice.",
+        "This distractor does not meet the learning objective.",
+        "This supports the goal of hands practice."
+      ],
+      "source": "https://www.learningscientists.org/"
+    },
+    {
+      "id": "demo-m-14",
+      "type": "multi",
+      "group": 5,
+      "domain": "hands",
+      "prompt": "Which TWO safeguards are good in a hands-on lab?",
+      "options": [
+        "Read cost/cleanup warnings",
+        "Disable logs for simplicity",
+        "Run destructive commands without approval",
+        "Check expected outcomes",
+        "Keep credentials in source code"
+      ],
+      "correct": [
+        0,
+        3
+      ],
+      "explanation": "The correct choices support the stated learning objective. The others skip validation, rely on guesses, or misuse the exercise.",
+      "why": [
+        "This supports the goal of hands practice.",
+        "This distractor does not meet the learning objective.",
+        "This distractor does not meet the learning objective.",
+        "This supports the goal of hands practice.",
+        "This distractor does not meet the learning objective."
+      ],
+      "source": "https://www.learningscientists.org/"
+    },
+    {
+      "id": "demo-m-15",
+      "type": "multi",
+      "group": 5,
+      "domain": "hands",
+      "prompt": "Which TWO skills can Code & CLI Drills test?",
+      "options": [
+        "Image filter selection",
+        "Meaning of a command argument",
+        "Typing speed alone",
+        "Correct execution sequence",
+        "Unrelated branding"
+      ],
+      "correct": [
+        1,
+        3
+      ],
+      "explanation": "The correct choices support the stated learning objective. The others skip validation, rely on guesses, or misuse the exercise.",
+      "why": [
+        "This distractor does not meet the learning objective.",
+        "This supports the goal of hands practice.",
+        "This distractor does not meet the learning objective.",
+        "This supports the goal of hands practice.",
+        "This distractor does not meet the learning objective."
+      ],
+      "source": "https://www.learningscientists.org/"
+    },
+    {
+      "id": "demo-m-16",
+      "type": "multi",
+      "group": 6,
+      "domain": "review",
+      "prompt": "Which TWO signals can indicate a weak learning area?",
+      "options": [
+        "Changing website colors",
+        "A longer display name",
+        "Repeated wrong explanations",
+        "Low-confidence correct guesses",
+        "More time spent looking at the logo"
+      ],
+      "correct": [
+        2,
+        3
+      ],
+      "explanation": "The correct choices support the stated learning objective. The others skip validation, rely on guesses, or misuse the exercise.",
+      "why": [
+        "This distractor does not meet the learning objective.",
+        "This distractor does not meet the learning objective.",
+        "This supports the goal of review practice.",
+        "This supports the goal of review practice.",
+        "This distractor does not meet the learning objective."
+      ],
+      "source": "https://www.learningscientists.org/"
+    },
+    {
+      "id": "demo-m-17",
+      "type": "multi",
+      "group": 6,
+      "domain": "review",
+      "prompt": "Which TWO methods help track sustained improvement?",
+      "options": [
+        "Try fresh questions later",
+        "Only memorize one fixed practice set",
+        "Review weak topics after a delay",
+        "Ignore past misses",
+        "Use XP alone to claim official readiness"
+      ],
+      "correct": [
+        0,
+        2
+      ],
+      "explanation": "The correct choices support the stated learning objective. The others skip validation, rely on guesses, or misuse the exercise.",
+      "why": [
+        "This supports the goal of review practice.",
+        "This distractor does not meet the learning objective.",
+        "This supports the goal of review practice.",
+        "This distractor does not meet the learning objective.",
+        "This distractor does not meet the learning objective."
+      ],
+      "source": "https://www.learningscientists.org/"
+    },
+    {
+      "id": "demo-m-18",
+      "type": "multi",
+      "group": 6,
+      "domain": "review",
+      "prompt": "Which TWO facts about progress tracking are reasonable?",
+      "options": [
+        "It proves official passing score",
+        "It can be saved locally per certification",
+        "It automatically creates new certifications",
+        "It replaces provider documentation",
+        "It can preserve sprint completion across reloads"
+      ],
+      "correct": [
+        1,
+        4
+      ],
+      "explanation": "The correct choices support the stated learning objective. The others skip validation, rely on guesses, or misuse the exercise.",
+      "why": [
+        "This distractor does not meet the learning objective.",
+        "This supports the goal of review practice.",
+        "This distractor does not meet the learning objective.",
+        "This distractor does not meet the learning objective.",
+        "This supports the goal of review practice."
+      ],
+      "source": "https://www.learningscientists.org/"
+    }
+  ],
+  "triggers": [
+    {
+      "domain": "plan",
+      "trigger": "You see an unfamiliar objective in Exam Blueprint.",
+      "answer": "Check the official guide and learn the prerequisite concept.",
+      "explanation": "Understand the tested topics before memorizing details.",
+      "trap": "Guessing based on the topic title."
+    },
+    {
+      "domain": "plan",
+      "trigger": "A practice answer for Exam Blueprint was wrong.",
+      "answer": "Read why each choice works or fails, then practice again.",
+      "explanation": "If a domain is not yet studied, schedule a lesson and practice check before calling it complete.",
+      "trap": "Do not assume every exam uses the same scoring method or question types."
+    },
+    {
+      "domain": "learn",
+      "trigger": "You see an unfamiliar objective in Fast Learning.",
+      "answer": "Check the official guide and learn the prerequisite concept.",
+      "explanation": "Use a concise explanation, then demonstrate a practical example.",
+      "trap": "Guessing based on the topic title."
+    },
+    {
+      "domain": "learn",
+      "trigger": "A practice answer for Fast Learning was wrong.",
+      "answer": "Read why each choice works or fails, then practice again.",
+      "explanation": "A short explanation can be expanded into a concrete scenario and a short check.",
+      "trap": "Simply rereading the same paragraph is not a reliable mastery check."
+    },
+    {
+      "domain": "recall",
+      "trigger": "You see an unfamiliar objective in Active Recall.",
+      "answer": "Check the official guide and learn the prerequisite concept.",
+      "explanation": "Try answering without revealing hints, then inspect why each option is right or wrong.",
+      "trap": "Guessing based on the topic title."
+    },
+    {
+      "domain": "recall",
+      "trigger": "A practice answer for Active Recall was wrong.",
+      "answer": "Read why each choice works or fails, then practice again.",
+      "explanation": "Answer first and reveal the explanation afterward.",
+      "trap": "Memorizing option letters is not learning the underlying concept."
+    },
+    {
+      "domain": "scenarios",
+      "trigger": "You see an unfamiliar objective in Scenario Reasoning.",
+      "answer": "Check the official guide and learn the prerequisite concept.",
+      "explanation": "Identify constraints, eliminate distractors, and justify a choice.",
+      "trap": "Guessing based on the topic title."
+    },
+    {
+      "domain": "scenarios",
+      "trigger": "A practice answer for Scenario Reasoning was wrong.",
+      "answer": "Read why each choice works or fails, then practice again.",
+      "explanation": "Ask what the scenario requires before jumping to a familiar product or command.",
+      "trap": "The first familiar keyword does not automatically identify the correct answer."
+    },
+    {
+      "domain": "hands",
+      "trigger": "You see an unfamiliar objective in Hands-On Drills.",
+      "answer": "Check the official guide and learn the prerequisite concept.",
+      "explanation": "Order steps, interpret commands, and validate expected outcomes.",
+      "trap": "Guessing based on the topic title."
+    },
+    {
+      "domain": "hands",
+      "trigger": "A practice answer for Hands-On Drills was wrong.",
+      "answer": "Read why each choice works or fails, then practice again.",
+      "explanation": "Troubleshoot a wrong sequence by checking dependencies between steps.",
+      "trap": "A memorized command can still be used in the wrong order or context."
+    },
+    {
+      "domain": "review",
+      "trigger": "You see an unfamiliar objective in Review & Progress.",
+      "answer": "Check the official guide and learn the prerequisite concept.",
+      "explanation": "Use misses, confidence, and spaced practice to prioritize the next review.",
+      "trap": "Guessing based on the topic title."
+    },
+    {
+      "domain": "review",
+      "trigger": "A practice answer for Review & Progress was wrong.",
+      "answer": "Read why each choice works or fails, then practice again.",
+      "explanation": "Keep a record of what you missed and check improvement after a break.",
+      "trap": "A high score on repeated identical questions may overstate readiness."
+    }
+  ],
+  "decisions": [
+    {
+      "domain": "plan",
+      "title": "Exam Blueprint: choose the learning action",
+      "nodes": [
+        {
+          "prompt": "You encounter a gap in Exam Blueprint. How will you proceed?",
+          "options": [
+            {
+              "label": "Review the relevant concept and requirements",
+              "next": 1
+            },
+            {
+              "label": "Skip it and guess based on a familiar word",
+              "next": 2
+            }
+          ]
+        },
+        {
+          "prompt": "How will you verify your new understanding?",
+          "options": [
+            {
+              "label": "Try an unseen scenario and explain the result",
+              "next": 3
+            },
+            {
+              "label": "Only re-read the same sentence",
+              "next": 4
+            }
+          ]
+        },
+        {
+          "prompt": "Why can guessing be unreliable?",
+          "options": [
+            {
+              "label": "Return and analyze the stated requirement",
+              "next": 1
+            },
+            {
+              "label": "Assume luck means mastery",
+              "next": 5
+            }
+          ]
+        },
+        {
+          "prompt": "Recommended",
+          "outcome": "Review the concept, attempt a fresh application question, and check the explanations."
+        },
+        {
+          "prompt": "Partial",
+          "outcome": "Reading is helpful, but add retrieval practice to demonstrate understanding."
+        },
+        {
+          "prompt": "Not recommended",
+          "outcome": "Guessing without understanding can create a misleading score; return to the concept."
+        }
+      ]
+    },
+    {
+      "domain": "learn",
+      "title": "Fast Learning: choose the learning action",
+      "nodes": [
+        {
+          "prompt": "You encounter a gap in Fast Learning. How will you proceed?",
+          "options": [
+            {
+              "label": "Review the relevant concept and requirements",
+              "next": 1
+            },
+            {
+              "label": "Skip it and guess based on a familiar word",
+              "next": 2
+            }
+          ]
+        },
+        {
+          "prompt": "How will you verify your new understanding?",
+          "options": [
+            {
+              "label": "Try an unseen scenario and explain the result",
+              "next": 3
+            },
+            {
+              "label": "Only re-read the same sentence",
+              "next": 4
+            }
+          ]
+        },
+        {
+          "prompt": "Why can guessing be unreliable?",
+          "options": [
+            {
+              "label": "Return and analyze the stated requirement",
+              "next": 1
+            },
+            {
+              "label": "Assume luck means mastery",
+              "next": 5
+            }
+          ]
+        },
+        {
+          "prompt": "Recommended",
+          "outcome": "Review the concept, attempt a fresh application question, and check the explanations."
+        },
+        {
+          "prompt": "Partial",
+          "outcome": "Reading is helpful, but add retrieval practice to demonstrate understanding."
+        },
+        {
+          "prompt": "Not recommended",
+          "outcome": "Guessing without understanding can create a misleading score; return to the concept."
+        }
+      ]
+    },
+    {
+      "domain": "recall",
+      "title": "Active Recall: choose the learning action",
+      "nodes": [
+        {
+          "prompt": "You encounter a gap in Active Recall. How will you proceed?",
+          "options": [
+            {
+              "label": "Review the relevant concept and requirements",
+              "next": 1
+            },
+            {
+              "label": "Skip it and guess based on a familiar word",
+              "next": 2
+            }
+          ]
+        },
+        {
+          "prompt": "How will you verify your new understanding?",
+          "options": [
+            {
+              "label": "Try an unseen scenario and explain the result",
+              "next": 3
+            },
+            {
+              "label": "Only re-read the same sentence",
+              "next": 4
+            }
+          ]
+        },
+        {
+          "prompt": "Why can guessing be unreliable?",
+          "options": [
+            {
+              "label": "Return and analyze the stated requirement",
+              "next": 1
+            },
+            {
+              "label": "Assume luck means mastery",
+              "next": 5
+            }
+          ]
+        },
+        {
+          "prompt": "Recommended",
+          "outcome": "Review the concept, attempt a fresh application question, and check the explanations."
+        },
+        {
+          "prompt": "Partial",
+          "outcome": "Reading is helpful, but add retrieval practice to demonstrate understanding."
+        },
+        {
+          "prompt": "Not recommended",
+          "outcome": "Guessing without understanding can create a misleading score; return to the concept."
+        }
+      ]
+    },
+    {
+      "domain": "scenarios",
+      "title": "Scenario Reasoning: choose the learning action",
+      "nodes": [
+        {
+          "prompt": "You encounter a gap in Scenario Reasoning. How will you proceed?",
+          "options": [
+            {
+              "label": "Review the relevant concept and requirements",
+              "next": 1
+            },
+            {
+              "label": "Skip it and guess based on a familiar word",
+              "next": 2
+            }
+          ]
+        },
+        {
+          "prompt": "How will you verify your new understanding?",
+          "options": [
+            {
+              "label": "Try an unseen scenario and explain the result",
+              "next": 3
+            },
+            {
+              "label": "Only re-read the same sentence",
+              "next": 4
+            }
+          ]
+        },
+        {
+          "prompt": "Why can guessing be unreliable?",
+          "options": [
+            {
+              "label": "Return and analyze the stated requirement",
+              "next": 1
+            },
+            {
+              "label": "Assume luck means mastery",
+              "next": 5
+            }
+          ]
+        },
+        {
+          "prompt": "Recommended",
+          "outcome": "Review the concept, attempt a fresh application question, and check the explanations."
+        },
+        {
+          "prompt": "Partial",
+          "outcome": "Reading is helpful, but add retrieval practice to demonstrate understanding."
+        },
+        {
+          "prompt": "Not recommended",
+          "outcome": "Guessing without understanding can create a misleading score; return to the concept."
+        }
+      ]
+    },
+    {
+      "domain": "hands",
+      "title": "Hands-On Drills: choose the learning action",
+      "nodes": [
+        {
+          "prompt": "You encounter a gap in Hands-On Drills. How will you proceed?",
+          "options": [
+            {
+              "label": "Review the relevant concept and requirements",
+              "next": 1
+            },
+            {
+              "label": "Skip it and guess based on a familiar word",
+              "next": 2
+            }
+          ]
+        },
+        {
+          "prompt": "How will you verify your new understanding?",
+          "options": [
+            {
+              "label": "Try an unseen scenario and explain the result",
+              "next": 3
+            },
+            {
+              "label": "Only re-read the same sentence",
+              "next": 4
+            }
+          ]
+        },
+        {
+          "prompt": "Why can guessing be unreliable?",
+          "options": [
+            {
+              "label": "Return and analyze the stated requirement",
+              "next": 1
+            },
+            {
+              "label": "Assume luck means mastery",
+              "next": 5
+            }
+          ]
+        },
+        {
+          "prompt": "Recommended",
+          "outcome": "Review the concept, attempt a fresh application question, and check the explanations."
+        },
+        {
+          "prompt": "Partial",
+          "outcome": "Reading is helpful, but add retrieval practice to demonstrate understanding."
+        },
+        {
+          "prompt": "Not recommended",
+          "outcome": "Guessing without understanding can create a misleading score; return to the concept."
+        }
+      ]
+    },
+    {
+      "domain": "review",
+      "title": "Review & Progress: choose the learning action",
+      "nodes": [
+        {
+          "prompt": "You encounter a gap in Review & Progress. How will you proceed?",
+          "options": [
+            {
+              "label": "Review the relevant concept and requirements",
+              "next": 1
+            },
+            {
+              "label": "Skip it and guess based on a familiar word",
+              "next": 2
+            }
+          ]
+        },
+        {
+          "prompt": "How will you verify your new understanding?",
+          "options": [
+            {
+              "label": "Try an unseen scenario and explain the result",
+              "next": 3
+            },
+            {
+              "label": "Only re-read the same sentence",
+              "next": 4
+            }
+          ]
+        },
+        {
+          "prompt": "Why can guessing be unreliable?",
+          "options": [
+            {
+              "label": "Return and analyze the stated requirement",
+              "next": 1
+            },
+            {
+              "label": "Assume luck means mastery",
+              "next": 5
+            }
+          ]
+        },
+        {
+          "prompt": "Recommended",
+          "outcome": "Review the concept, attempt a fresh application question, and check the explanations."
+        },
+        {
+          "prompt": "Partial",
+          "outcome": "Reading is helpful, but add retrieval practice to demonstrate understanding."
+        },
+        {
+          "prompt": "Not recommended",
+          "outcome": "Guessing without understanding can create a misleading score; return to the concept."
+        }
+      ]
+    }
+  ],
+  "battles": [
+    {
+      "a": {
+        "name": "Reading notes",
+        "description": "Helps introduce an unfamiliar concept.",
+        "when": "Choose to acquire the first explanation."
+      },
+      "b": {
+        "name": "Active recall",
+        "description": "Tests the ability to retrieve knowledge.",
+        "when": "Choose to determine what you can actually remember."
+      },
+      "rule": "Read to learn, recall to verify."
+    },
+    {
+      "a": {
+        "name": "Single-answer question",
+        "description": "Only one option is correct.",
+        "when": "Choose when the prompt asks for one best answer."
+      },
+      "b": {
+        "name": "Multi-select question",
+        "description": "More than one option is correct.",
+        "when": "Choose when the prompt specifies multiple selections."
+      },
+      "rule": "Read the response instructions before answering."
+    },
+    {
+      "a": {
+        "name": "A fact card",
+        "description": "Highlights a specific concept or number.",
+        "when": "Choose for quick targeted review."
+      },
+      "b": {
+        "name": "A scenario",
+        "description": "Combines requirements, trade-offs and interpretation.",
+        "when": "Choose to practice applying a concept."
+      },
+      "rule": "Knowing the fact is not the same as applying it."
+    },
+    {
+      "a": {
+        "name": "Study sprint",
+        "description": "A short lesson and objective-focused checkpoint.",
+        "when": "Choose to learn a new topic."
+      },
+      "b": {
+        "name": "Full quiz",
+        "description": "A mixed-question performance check.",
+        "when": "Choose to sample understanding across topics."
+      },
+      "rule": "Study for understanding, quiz for evidence."
+    },
+    {
+      "a": {
+        "name": "Keyboard practice",
+        "description": "Quickly answers timed recall questions.",
+        "when": "Choose for fast recognition training."
+      },
+      "b": {
+        "name": "Ordering practice",
+        "description": "Sorts a process into correct dependency order.",
+        "when": "Choose to rehearse a procedural workflow."
+      },
+      "rule": "Recognizing concepts and ordering tasks are different skills."
+    },
+    {
+      "a": {
+        "name": "High confidence",
+        "description": "You can explain why the correct answer is best.",
+        "when": "Choose when you can justify the solution."
+      },
+      "b": {
+        "name": "Lucky guess",
+        "description": "You selected an answer without being able to explain it.",
+        "when": "Treat as a signal for another review."
+      },
+      "rule": "Confidence should reflect reasoning, not familiarity."
+    }
+  ],
+  "drills": [
+    {
+      "title": "Prepare from a blueprint",
+      "prompt": "Use the arrow controls to put these steps in the best order.",
+      "steps": [
+        "Read the latest official guide",
+        "Identify exam domains",
+        "Map objectives to lessons",
+        "Schedule practice",
+        "Review uncovered objectives"
+      ],
+      "scrambled": [
+        3,
+        0,
+        4,
+        2,
+        1
+      ],
+      "explanation": "Follow dependency order, verify results, and avoid skipping important review or cleanup steps."
+    },
+    {
+      "title": "Study one technical concept",
+      "prompt": "Use the arrow controls to put these steps in the best order.",
+      "steps": [
+        "Read the core idea",
+        "Compare it with a nearby concept",
+        "Walk through an example",
+        "Answer a new knowledge check",
+        "Review the explanation"
+      ],
+      "scrambled": [
+        1,
+        4,
+        2,
+        0,
+        3
+      ],
+      "explanation": "Follow dependency order, verify results, and avoid skipping important review or cleanup steps."
+    },
+    {
+      "title": "Review a wrong answer",
+      "prompt": "Use the arrow controls to put these steps in the best order.",
+      "steps": [
+        "Record the missed objective",
+        "Read each option explanation",
+        "Return to the relevant concept",
+        "Attempt a different scenario",
+        "Check whether reasoning improved"
+      ],
+      "scrambled": [
+        2,
+        0,
+        4,
+        1,
+        3
+      ],
+      "explanation": "Follow dependency order, verify results, and avoid skipping important review or cleanup steps."
+    },
+    {
+      "title": "Approach a scenario",
+      "prompt": "Use the arrow controls to put these steps in the best order.",
+      "steps": [
+        "Read all requirements",
+        "Identify the key constraint",
+        "Eliminate incompatible choices",
+        "Select the best supported option",
+        "Review why the others fail"
+      ],
+      "scrambled": [
+        4,
+        1,
+        3,
+        0,
+        2
+      ],
+      "explanation": "Follow dependency order, verify results, and avoid skipping important review or cleanup steps."
+    },
+    {
+      "title": "Validate a lab workflow",
+      "prompt": "Use the arrow controls to put these steps in the best order.",
+      "steps": [
+        "Check prerequisites and safety",
+        "Prepare the environment",
+        "Execute the steps in order",
+        "Verify expected results",
+        "Clean up resources safely"
+      ],
+      "scrambled": [
+        1,
+        3,
+        0,
+        4,
+        2
+      ],
+      "explanation": "Follow dependency order, verify results, and avoid skipping important review or cleanup steps."
+    },
+    {
+      "title": "Plan a final review",
+      "prompt": "Use the arrow controls to put these steps in the best order.",
+      "steps": [
+        "Collect weak objectives",
+        "Prioritize their impact",
+        "Do short focused reviews",
+        "Practice fresh mixed questions",
+        "Record remaining uncertainties"
+      ],
+      "scrambled": [
+        4,
+        3,
+        0,
+        2,
+        1
+      ],
+      "explanation": "Follow dependency order, verify results, and avoid skipping important review or cleanup steps."
+    }
+  ],
+  "numbers": [
+    {
+      "value": "6",
+      "title": "Demonstration sprint cards",
+      "domain": "plan",
+      "explanation": "This demonstration has six interactive lesson sprints, not six official exam domains.",
+      "source": "https://www.learningscientists.org/"
+    },
+    {
+      "value": "5s",
+      "title": "Speed game countdown",
+      "domain": "learn",
+      "explanation": "The rapid practice game starts with a five-second timer per question.",
+      "source": "https://www.learningscientists.org/"
+    },
+    {
+      "value": "6",
+      "title": "Multi-select exam groups",
+      "domain": "recall",
+      "explanation": "Exam 1 through Exam 6 are practice group controls in the UI.",
+      "source": "https://www.learningscientists.org/"
+    },
+    {
+      "value": "2+",
+      "title": "Multi-select response count",
+      "domain": "scenarios",
+      "explanation": "Multiple-response questions require choosing the number of options stated by the question.",
+      "source": "https://www.learningscientists.org/"
+    },
+    {
+      "value": "10",
+      "title": "Demo rhyme cards",
+      "domain": "hands",
+      "explanation": "These are example memory cards; a real pack must use exam-specific concepts.",
+      "source": "https://www.learningscientists.org/"
+    },
+    {
+      "value": "0",
+      "title": "Official exam claims",
+      "domain": "review",
+      "explanation": "The demonstration makes no claims about an official certification blueprint.",
+      "source": "https://www.learningscientists.org/"
+    },
+    {
+      "value": "1",
+      "title": "Reusable interface",
+      "domain": "plan",
+      "explanation": "One interface can load many separately authored exam data packages.",
+      "source": "https://www.learningscientists.org/"
+    },
+    {
+      "value": "100%",
+      "title": "Feedback on every demo question",
+      "domain": "learn",
+      "explanation": "Each demonstration question has a defined answer and explanation.",
+      "source": "https://www.learningscientists.org/"
+    }
+  ],
+  "rhymes": [
+    {
+      "title": "Exam objectives",
+      "rhyme": "Start with the guide, make a map;\nCover each domain, close the gap.",
+      "explanation": "Check the current blueprint and track objective coverage."
+    },
+    {
+      "title": "Practice recall",
+      "rhyme": "Answer first, then see the why;\nFind the gap and give it a try.",
+      "explanation": "Use retrieval before looking at explanations."
+    },
+    {
+      "title": "Scenario clues",
+      "rhyme": "Read the need before you choose;\nMiss the constraint and you may lose.",
+      "explanation": "Requirements matter more than keyword recognition."
+    },
+    {
+      "title": "Distractors",
+      "rhyme": "Sounds so close, but fails the test;\nMatch each rule to find the best.",
+      "explanation": "Explain why plausible wrong choices fail."
+    },
+    {
+      "title": "Lab order",
+      "rhyme": "Setup first, then run the flow;\nCheck the result before you go.",
+      "explanation": "Follow prerequisites and verify outcomes."
+    },
+    {
+      "title": "Review plan",
+      "rhyme": "Wrong today? Review with care;\nFresh questions show what stayed there.",
+      "explanation": "Revisit weak areas with new questions."
+    },
+    {
+      "title": "Timeboxing",
+      "rhyme": "Set the clock and name the aim;\nLearn the skill, not just the game.",
+      "explanation": "Time limits should support practice, not distract from it."
+    },
+    {
+      "title": "Progress",
+      "rhyme": "Check the score, but also why;\nNumbers cannot certify you by.",
+      "explanation": "Practice progress is not an official certification score."
+    },
+    {
+      "title": "Sources",
+      "rhyme": "Source it well, confirm the date;\nChanged exams do not sit and wait.",
+      "explanation": "Verify versions and technical details from official references."
+    },
+    {
+      "title": "Switching",
+      "rhyme": "New exam pack, same study view;\nKeep old progress while learning new.",
+      "explanation": "Keep content and saved progress separate for each certification."
+    }
+  ],
+  "realFake": [
+    {
+      "id": "demo-rf-1",
+      "claim": "The Fast-Track roadmap has six clickable lesson titles.",
+      "real": true,
+      "explanation": "The six sprint titles open full lesson content.",
+      "domain": "plan"
+    },
+    {
+      "id": "demo-rf-2",
+      "claim": "Every question in the Multi-Select Lab requires exactly one answer.",
+      "real": false,
+      "explanation": "Multi-select examples specify multiple correct answers.",
+      "domain": "recall"
+    },
+    {
+      "id": "demo-rf-3",
+      "claim": "The 5-Second Game displays a countdown and feedback.",
+      "real": true,
+      "explanation": "It uses a countdown timer for each challenge.",
+      "domain": "recall"
+    },
+    {
+      "id": "demo-rf-4",
+      "claim": "Progress automatically syncs to GitHub across devices.",
+      "real": false,
+      "explanation": "The demo uses local browser storage.",
+      "domain": "review"
+    },
+    {
+      "id": "demo-rf-5",
+      "claim": "The Code & CLI section supports ordering steps.",
+      "real": true,
+      "explanation": "Up/down controls let you change step order and check it.",
+      "domain": "hands"
+    },
+    {
+      "id": "demo-rf-6",
+      "claim": "Clicking a Head-to-Head comparison changes the official exam blueprint.",
+      "real": false,
+      "explanation": "Comparisons are learning content, not vendor documentation.",
+      "domain": "scenarios"
+    },
+    {
+      "id": "demo-rf-7",
+      "claim": "A content pack can be loaded without rebuilding the main page.",
+      "real": true,
+      "explanation": "The app loads packages listed in the registry.",
+      "domain": "plan"
+    },
+    {
+      "id": "demo-rf-8",
+      "claim": "This demo is an official exam practice product.",
+      "real": false,
+      "explanation": "It is only an interactive software demonstration.",
+      "domain": "plan"
+    },
+    {
+      "id": "demo-rf-9",
+      "claim": "Golden Triggers can be filtered and searched.",
+      "real": true,
+      "explanation": "The training cards use category filters and text search.",
+      "domain": "learn"
+    },
+    {
+      "id": "demo-rf-10",
+      "claim": "Resetting this demo necessarily erases other certifications.",
+      "real": false,
+      "explanation": "Progress is stored under the selected package ID.",
+      "domain": "review"
+    },
+    {
+      "id": "demo-rf-11",
+      "claim": "Voice lessons depend on browser speech support.",
+      "real": true,
+      "explanation": "Browser speech synthesis is used where available.",
+      "domain": "learn"
+    },
+    {
+      "id": "demo-rf-12",
+      "claim": "The agent can create a new exam package without any source research.",
+      "real": false,
+      "explanation": "Official blueprint and technical facts need verification.",
+      "domain": "plan"
+    }
+  ]
+}

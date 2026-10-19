@@ -1,0 +1,10 @@
+{
+  "default": "demo",
+  "certifications": [
+    {
+      "id": "demo",
+      "label": "Interactive Demo (not an exam)",
+      "path": "certifications/demo.json"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+# Local secrets (never commit)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.mobileprovision
+id_rsa*
+id_ed25519*
+credentials.json
+service-account*.json
+
+# Private third-party references and recordings
+references/private/
+references/**/*.mp4
+references/**/*.mov
+references/**/*.7z
+references/**/*.zip
+
+# Dependencies and generated output
+node_modules/
+.next/
+dist/
+build/
+coverage/
+playwright-report/
+test-results/
+__pycache__/
+.pytest_cache/
+
+# Local progress exports and temporary files
+exports/
+backups/
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# OS and editor state
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/

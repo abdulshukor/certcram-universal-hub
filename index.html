@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="dark" />
+  <meta name="description" content="Fast-track certification study hub with interactive practice tools." />
+  <title>CertCram | Fast-Track Learning Hub</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <div class="app-shell">
+    <header class="masthead">
+      <div class="brand"><span class="mark" aria-hidden="true">✦</span><div><strong>CertCram<span class="brand-accent">.</span></strong><div class="subtitle">UNIVERSAL FAST-TRACK HUB</div></div></div>
+      <div class="mast-actions"><span class="chip live"><span class="live-dot"></span> LOCAL-FIRST</span><label class="cert-switch" for="cert-select">EXAM <select id="cert-select" aria-label="Choose certification"><option>Loading certifications…</option></select></label></div>
+    </header>
+    <div class="hero card">
+      <div><div class="eyebrow">YOUR ACTIVE CRAM HUB <span class="small-dot">•</span> <span id="exam-code">—</span></div><h1 id="cert-name">Loading your certification…</h1><p id="cert-caption" class="muted">Exam-aligned practice, memory drills and technical confidence — all in one place.</p><div id="exam-note" class="micro muted"></div></div>
+      <div class="hero-stats"><div class="stat"><span>SPRINTS DONE</span><strong id="stat-sprints">0 / 6</strong></div><div class="stat"><span>ACCURACY</span><strong id="stat-accuracy">—</strong></div><div class="stat"><span>XP EARNED</span><strong id="stat-xp">0</strong></div></div>
+    </div>
+    <section id="setup-panel" class="setup-panel card" hidden>
+      <div class="setup-copy">
+        <span class="setup-kicker">START HERE · ONE PROMPT, ANY CERTIFICATION</span>
+        <strong>Create your first certification pack</strong>
+        <p>Try the interactive demo now. To study a real certification, enter its name, copy the command, and paste it into your VS Code AI agent. The agent creates new lessons and exercises for that exam.</p>
+      </div>
+      <div class="setup-inputs">
+        <label for="exam-request">Certification name or exam code</label>
+        <div class="setup-row"><input id="exam-request" type="text" placeholder="e.g., Azure Administrator AZ-104" autocomplete="off" /><button id="copy-request" class="btn primary" type="button">Copy agent command</button></div>
+        <small>Runs locally. No paid API or website AI account required. The coding agent generates new content in VS Code.</small>
+      </div>
+    </section>
+    <nav class="main-tabs" aria-label="Main learning modes"><button data-tab="dashboard" class="tab active">⌂ Overview</button><button data-tab="blitz" class="tab">⚡ Exam Blitz</button><button data-tab="learn" class="tab">◈ Fast-Learn Engine</button><button data-tab="guide" class="tab">▤ Concept Guide</button><button data-tab="quiz" class="tab">▣ Full Quiz</button></nav>
+    <section id="coach" class="coach card"></section>
+    <section id="roadmap" class="roadmap card"></section>
+    <nav id="tool-nav" class="tool-nav" aria-label="Practice tools">
+      <button data-tab="triggers" class="tool-tab">✧ Golden Triggers</button>
+      <button data-tab="decision" class="tool-tab">⑂ Decision Trees</button>
+      <button data-tab="speed" class="tool-tab">◷ 5-Second Game</button>
+      <button data-tab="trap" class="tool-tab">◇ Spot the Trap</button>
+      <button data-tab="real-fake" class="tool-tab">✓ Real vs Fake</button>
+      <button data-tab="battle" class="tool-tab">⇄ Head-to-Head</button>
+      <button data-tab="multi" class="tool-tab">☑ Multi-Select Lab</button>
+      <button data-tab="drills" class="tool-tab">⌘ Code & CLI Drills</button>
+      <button data-tab="numbers" class="tool-tab"># Magic Numbers</button>
+      <button data-tab="rhymes" class="tool-tab">♫ Teacher Rhymes</button>
+    </nav>
+    <main id="content" tabindex="-1" aria-live="polite"></main>
+    <footer class="footer"><span>CertCram • Learn actively. Remember deeply.</span><span>Independent practice content • Not affiliated with certification providers</span><button id="reset-progress" class="subtle-btn">Reset this exam's progress</button></footer>
+  </div>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
